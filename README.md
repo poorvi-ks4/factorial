@@ -10,7 +10,7 @@ return n* fact(n-1);
 int main()
 {
 int num;
-printf("enter a postive number\n");
+printf("enter a non-negative number\n");
 scanf("%d",&num);
 printf("the factorial of the entred number is %d",fact(num));
 }
